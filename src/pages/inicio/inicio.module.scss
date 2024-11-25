@@ -14,3 +14,46 @@
         width: 20%;
     }
 }
+
+
+
+.porqueDoarSection {
+
+    display: flex;
+    border: solid red;
+    height: 75vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    h2 {
+        width: 90%;
+        font-size: 40px;
+        color: #005695;
+    }
+
+}
+
+.cardsMotivos {
+
+    display: flex;
+    height: 50vh;
+    justify-content: space-evenly;
+
+    section{
+        background: #0157944D;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+        p {
+            font-size: 22px;
+            text-align: center;
+            width: 80%;
+        }
+
+    }
+}
