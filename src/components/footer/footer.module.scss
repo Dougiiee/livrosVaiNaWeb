@@ -23,3 +23,21 @@
     justify-content: center;
     color: #FFF;
 }
+
+
+@media (max-width: 780px) {
+    .contatosFooter{
+        flex-direction: column;
+
+        nav{
+            width: 70%;
+        }
+    }
+    .copyright{
+        font-size: 12px;
+        
+        p{
+            width: 50%;
+        }
+    }
+}

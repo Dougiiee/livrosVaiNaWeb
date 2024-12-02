@@ -13,7 +13,7 @@ export default function Inicio(){
             </section>
             <section className={s.cardsMotivos} >
                 <h2>Por que devo doar?</h2>
-            
+                <div>
                 <section >
                     <img src={imagem1} alt="imagem ilustrando um circulo social de 4 pessoas" />
                     <p> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
@@ -30,6 +30,7 @@ export default function Inicio(){
                         <img src={imagem4} alt="imagem ilustrando uma balança vazia" />
                         <p>Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</p>
                     </section>
+                    </div>
                 </section>
                 
             
