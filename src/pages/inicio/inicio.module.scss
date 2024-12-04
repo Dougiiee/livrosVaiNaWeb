@@ -20,7 +20,6 @@
 .porqueDoarSection {
 
     display: flex;
-    border: solid red;
     height: 75vh;
     flex-direction: column;
     align-items: center;
@@ -40,7 +39,6 @@
     height: 70vh;
     justify-content: space-evenly;
     flex-direction: column;
-    border: solid red;
     padding-left: 6%;
     
     
@@ -102,20 +100,34 @@
     }
 
     .cardsMotivos{
-        height: 110vh;
-        flex-direction: column;
+        height: 140vh;
+        
         align-items: center;
+
+        div{
+            height: 110vh;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
 
         section{
             width: 70%;
-            height: 25vh;
+            height: 20vh;
+            
+            
 
             p{
-                font-size: 18px;
+                font-size: 16px;
             }
 
             img{
                 width: 18%;
+            }
+
+            h2{
+                font-size: 18px;
             }
         }
     }

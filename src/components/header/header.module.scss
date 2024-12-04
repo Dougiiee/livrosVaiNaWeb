@@ -8,7 +8,6 @@ header {
 
 .logoHeader {
     display: flex;
-    border: red solid;
     width: 20%;
     justify-content: space-around;
     align-items: center;
@@ -28,7 +27,6 @@ header {
 
 
 .navHeader {
-    border: solid red;
     width: 30%;
 
     ul{
@@ -46,7 +44,6 @@ header {
 }
 
 .barraDeBusca{
-    border: solid #bd0f0f;
     border-radius: 20px;
     margin-right: 1%;
     width: 20%;
