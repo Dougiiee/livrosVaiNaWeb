@@ -7,6 +7,9 @@
 
     h2{
         font-size: 32px;
+        height: 10vh;
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -14,7 +17,10 @@
 
 .containerCards{
     width: 95%;
-    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
 
 
     section {
